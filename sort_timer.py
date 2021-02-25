@@ -57,3 +57,6 @@ def compare_sorts(dec1_bubble, dec2_ins):
     plt.plot(list1, list3, 'go--', linewidth=2, label='Insertion Sort')
     plt.legend(loc="upper left")
     plt.show()
+
+
+compare_sorts(bubble_sort, insertion_sort)
